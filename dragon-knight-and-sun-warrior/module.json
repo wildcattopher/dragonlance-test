@@ -1,0 +1,32 @@
+{
+    "id": "dragon-knight-and-sun-warrior",
+    "name": "dragon-knight-and-sun-warrior",
+    "title": "Dragon Knight and Sun Warrior Classes",
+    "description": "Dragon Knight and Sun Warrior classes for Chris and Jake.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "WildcatTopher",
+            "discord": "MyDiscordUsername#42",
+            "url": "https://www.mywebsite.com/"
+        }
+    ],
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": "0.8.6",
+        "verified": "10"
+    },
+    "packs": [
+        {
+            "name": "module-items",
+            "label": "Module Items",
+            "path": "./packs/items.db",
+            "entity": "Item",
+            "type": "Item",
+            "system": "dnd5e"
+        }
+    ],
+    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  }
